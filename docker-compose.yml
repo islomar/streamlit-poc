@@ -1,0 +1,5 @@
+services:
+  streamlit-islomar:
+    build: .
+    ports:
+      - "8501:8501"

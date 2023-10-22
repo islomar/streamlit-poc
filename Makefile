@@ -11,5 +11,8 @@ build: ## Build Streamlit
 run: ## Run Streamlit
 	docker run -p 8501:8501 islomar/streamlit
 
+up-compose: ## Run Streamlit with docker-compose
+	docker compose up -d
+
 docker-login:
 	docker login -u islomar
